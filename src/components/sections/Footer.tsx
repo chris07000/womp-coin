@@ -1,39 +1,28 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
           {/* Left Section - Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
-                <span className="text-2xl">🟣</span>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-1">
+                <Image
+                  src="/images/blob.png"
+                  alt="WOMP Logo"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h3 className="text-2xl font-black">WOMP</h3>
             </div>
             <p className="text-gray-300 font-bold">
               The blob that ate the blockchain! Join the WOMP community for maximum chaos and minimum brain cells.
             </p>
-          </div>
-
-          {/* Middle Section - Links */}
-          <div className="space-y-4">
-            <h4 className="text-xl font-black text-purple-400">QUICK LINKS</h4>
-            <div className="space-y-2">
-              <a href="#" className="block text-gray-300 hover:text-purple-400 font-bold transition-colors">
-                About WOMP
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-orange-400 font-bold transition-colors">
-                Tokenomics
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-purple-400 font-bold transition-colors">
-                Roadmap
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-orange-400 font-bold transition-colors">
-                Community
-              </a>
-            </div>
           </div>
 
           {/* Right Section - Social */}
@@ -44,9 +33,9 @@ export default function Footer() {
                 href="https://twitter.com/WOMPTHEBLOB" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block text-gray-300 hover:text-orange-400 font-bold transition-colors"
+                className="inline-flex items-center text-gray-300 hover:text-orange-400 font-bold transition-colors text-2xl"
               >
-                🐦 Twitter: @WOMPTHEBLOB
+                𝕏
               </a>
               <p className="text-gray-400 font-bold text-sm">
                 More social links coming soon...
