@@ -6,8 +6,9 @@ export default function Features() {
       <div className="max-w-7xl mx-auto text-center">
         {/* Main Content */}
         <div className="max-w-4xl mx-auto mb-16">
-          <h2 className="text-6xl md:text-8xl font-black text-white mb-8 leading-none border-8 border-orange-400 inline-block px-8 py-4 bg-orange-400/20 rounded-3xl">
-            WHY WOMP?
+          <h2 className="text-6xl md:text-8xl font-black text-black mb-12 leading-none border-8 border-orange-600 inline-block px-8 py-4 bg-orange-600/80 rounded-3xl">
+            WE DON&apos;T ASK WHY,<br />
+            WE ASK WOMP?
           </h2>
           
           <p className="text-2xl md:text-4xl text-white font-black leading-relaxed mb-8 bg-black/30 rounded-2xl p-6 border-4 border-white">
@@ -22,7 +23,7 @@ export default function Features() {
             </p>
             
             <div className="text-lg md:text-xl text-white font-bold">
-              WE DON'T ASK WHY,<br />
+              WE DON&apos;T ASK WHY,<br />
               <div className="inline-block mt-2">
                 <span className="text-2xl md:text-3xl text-orange-300 bg-black/50 px-6 py-3 rounded-2xl border-2 border-orange-300">
                   WE ASK WOMP? 🤔

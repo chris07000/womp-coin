@@ -1,36 +1,69 @@
-import Image from 'next/image';
-
 export default function Footer() {
   return (
-    <footer className="bg-black py-16 px-4">
-      <div className="max-w-7xl mx-auto text-center">
-        {/* Main Title */}
-        <h2 className="text-4xl md:text-6xl font-black text-white mb-8 border-6 border-purple-500 inline-block px-6 py-3 bg-purple-500/20 rounded-2xl">
-          JOIN THE WOMP
-        </h2>
-        
-        {/* Social Links - Only Twitter */}
-        <div className="flex justify-center mb-12">
-          <a 
-            href="https://x.com/WOMPTHEBLOB" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-white hover:text-orange-400 font-bold text-lg transition-colors bg-white/10 px-6 py-3 rounded-lg border-2 border-white/20 flex items-center"
-          >
-            <span className="mr-2 text-xl">𝕏</span>
-            @WOMPTHEBLOB
-          </a>
+    <footer className="bg-black text-white py-12 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          {/* Left Section - Logo and Description */}
+          <div className="space-y-4">
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+                <span className="text-2xl">🟣</span>
+              </div>
+              <h3 className="text-2xl font-black">WOMP</h3>
+            </div>
+            <p className="text-gray-300 font-bold">
+              The blob that ate the blockchain! Join the WOMP community for maximum chaos and minimum brain cells.
+            </p>
+          </div>
+
+          {/* Middle Section - Links */}
+          <div className="space-y-4">
+            <h4 className="text-xl font-black text-purple-400">QUICK LINKS</h4>
+            <div className="space-y-2">
+              <a href="#" className="block text-gray-300 hover:text-purple-400 font-bold transition-colors">
+                About WOMP
+              </a>
+              <a href="#" className="block text-gray-300 hover:text-orange-400 font-bold transition-colors">
+                Tokenomics
+              </a>
+              <a href="#" className="block text-gray-300 hover:text-purple-400 font-bold transition-colors">
+                Roadmap
+              </a>
+              <a href="#" className="block text-gray-300 hover:text-orange-400 font-bold transition-colors">
+                Community
+              </a>
+            </div>
+          </div>
+
+          {/* Right Section - Social */}
+          <div className="space-y-4">
+            <h4 className="text-xl font-black text-orange-400">FOLLOW THE BLOB</h4>
+            <div className="space-y-2">
+              <a 
+                href="https://twitter.com/WOMPTHEBLOB" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-gray-300 hover:text-orange-400 font-bold transition-colors"
+              >
+                🐦 Twitter: @WOMPTHEBLOB
+              </a>
+              <p className="text-gray-400 font-bold text-sm">
+                More social links coming soon...
+              </p>
+            </div>
+          </div>
         </div>
-        
-        {/* Copyright - Updated to 2025 */}
-        <p className="text-white/70 text-sm font-bold">
-          © 2025 WOMP TOKEN. ALL RIGHTS RESERVED.
-        </p>
-        
-        {/* Disclaimer */}
-        <p className="text-white/50 text-xs mt-4 max-w-2xl mx-auto">
-          WOMP IS A MEME TOKEN FOR ENTERTAINMENT. ALWAYS DYOR AND NEVER INVEST MORE THAN YOU CAN AFFORD TO LOSE!
-        </p>
+
+        {/* Bottom Section */}
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p className="text-gray-400 font-bold">
+            © 2025 WOMP. All rights reserved. WOMP WOMP! 🟣
+          </p>
+          <p className="text-gray-500 text-sm mt-2">
+            This is not financial advice. WOMP is a meme coin with no utility. DYOR!
+          </p>
+        </div>
       </div>
     </footer>
   );

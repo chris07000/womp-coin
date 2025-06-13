@@ -148,7 +148,7 @@ export default function Tokenomics() {
                 Not just a token, not just a meme, WOMP transcends the boundaries of traditional cryptocurrency to become a philosophical movement.
               </p>
               <p className="text-lg text-black font-bold leading-relaxed">
-                When you hold WOMP, you don't just hold tokens - you hold the essence of blob consciousness itself.
+                When you hold WOMP, you don&apos;t just hold tokens - you hold the essence of blob consciousness itself.
               </p>
             </div>
             

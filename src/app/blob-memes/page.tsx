@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import Image from 'next/image';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Button from '@/components/ui/Button';
 
@@ -57,7 +56,7 @@ export default function BlobMemePage() {
     { top: 'MUCH WOW', bottom: 'VERY STREET', blob: 'cap.png', bg: 'orange' },
   ];
 
-  const generateMeme = async () => {
+  const generateMeme = useCallback(async () => {
     setIsGenerating(true);
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -150,7 +149,7 @@ export default function BlobMemePage() {
     };
     
     img.src = `/images/${selectedBlob}`;
-  };
+  }, [topText, bottomText, selectedTemplate, selectedBlob, selectedBackground, textColor, textSize, outlineColor, backgrounds]);
 
   const downloadMeme = () => {
     const canvas = canvasRef.current;
@@ -171,7 +170,7 @@ export default function BlobMemePage() {
 
   useEffect(() => {
     generateMeme();
-  }, [topText, bottomText, selectedTemplate, selectedBlob, selectedBackground, textColor, textSize, outlineColor]);
+  }, [generateMeme]);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-purple-400 to-orange-400 py-20 px-4">

@@ -46,7 +46,7 @@ export default function BlobpaperPage() {
           <div className="bg-white rounded-3xl p-8 border-4 border-black">
             <h2 className="text-4xl font-black text-black mb-6">ABSTRACT 🤓</h2>
             <p className="text-lg text-black font-bold leading-relaxed mb-4">
-              WOMP represents a paradigm-shifting approach to blockchain technology by completely ignoring all best practices and embracing maximum chaos. This paper presents our groundbreaking "Proof of Blob" consensus mechanism, which operates on the fundamental principle that if it jiggles, it's valid.
+              WOMP represents a paradigm-shifting approach to blockchain technology by completely ignoring all best practices and embracing maximum chaos. This paper presents our groundbreaking &quot;Proof of Blob&quot; consensus mechanism, which operates on the fundamental principle that if it jiggles, it&apos;s valid.
             </p>
             <p className="text-lg text-black font-bold leading-relaxed">
               Through extensive research (5 minutes on Google), we have determined that WOMP is indeed a blob, and blobs are scientifically proven to be round-ish.
@@ -87,9 +87,9 @@ export default function BlobpaperPage() {
               <code className="text-black font-bold text-lg block whitespace-pre-wrap">
 {`function validateBlob(blob) {
   if (blob.isRound() && blob.canWobble()) {
-    return "VERY BLOB, MUCH VALID";
+    return &quot;VERY BLOB, MUCH VALID&quot;;
   }
-  return "NOT BLOB ENOUGH, TRY HARDER";
+  return &quot;NOT BLOB ENOUGH, TRY HARDER&quot;;
 }
 
 // Advanced jiggle detection
@@ -100,7 +100,7 @@ if (blob.jiggleLevel > 9000) {
               </code>
             </div>
             <p className="text-lg text-black font-bold">
-              The POB algorithm ensures maximum decentralization by requiring validators to prove their blobness through rigorous scientific testing involving jiggling, wobbling, and making "womp womp" sounds.
+              The POB algorithm ensures maximum decentralization by requiring validators to prove their blobness through rigorous scientific testing involving jiggling, wobbling, and making &quot;womp womp&quot; sounds.
             </p>
           </div>
 
@@ -128,7 +128,7 @@ if (blob.jiggleLevel > 9000) {
               </div>
             </div>
             <p className="text-lg text-black font-bold leading-relaxed">
-              This distribution ensures maximum fairness while maintaining optimal blob-to-human ratio. No presale because we forgot how to make one. No team allocation because we are all blobs and blobs don't need money, just vibes.
+              This distribution ensures maximum fairness while maintaining optimal blob-to-human ratio. No presale because we forgot how to make one. No team allocation because we are all blobs and blobs don&apos;t need money, just vibes.
             </p>
           </div>
 
@@ -136,7 +136,7 @@ if (blob.jiggleLevel > 9000) {
           <div className="bg-white rounded-3xl p-8 border-4 border-black">
             <h2 className="text-4xl font-black text-black mb-6">ECONOMIC MODEL 💰</h2>
             <p className="text-lg text-black font-bold leading-relaxed mb-4">
-              WOMP operates on a revolutionary economic principle we call "Vibes-Based Economics" (VBE). The token value is directly correlated to how much the community believes in the blob.
+              WOMP operates on a revolutionary economic principle we call &quot;Vibes-Based Economics&quot; (VBE). The token value is directly correlated to how much the community believes in the blob.
             </p>
             <div className="bg-orange-100 rounded-xl p-4 border-2 border-orange-400">
               <p className="text-black font-black text-center text-xl">
