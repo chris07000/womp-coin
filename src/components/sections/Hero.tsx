@@ -122,9 +122,9 @@ export default function Hero() {
               />
               
               {/* Speech Bubbles */}
-              <div className="absolute -top-16 -left-20 animate-pulse">
+              <div className="absolute -top-16 -left-4 md:-left-20 animate-pulse">
                 <div className="bg-white rounded-2xl px-4 py-2 border-4 border-black relative transform -rotate-12">
-                  <p className="text-black font-black text-lg whitespace-nowrap">
+                  <p className="text-black font-black text-sm md:text-lg whitespace-nowrap">
                     {speechBubbles[currentBubble]}
                   </p>
                   {/* Speech bubble tail */}
@@ -134,7 +134,7 @@ export default function Hero() {
               </div>
 
               {/* Second speech bubble (opposite side) */}
-              <div className="absolute -top-20 -right-16 animate-pulse animation-delay-1000">
+              <div className="absolute -top-20 -right-4 md:-right-16 animate-pulse animation-delay-1000">
                 <div className="bg-purple-300 rounded-2xl px-4 py-2 border-4 border-black relative transform rotate-6">
                   <p className="text-black font-black text-sm whitespace-nowrap">
                     BLOB POWER! 💪
@@ -147,7 +147,7 @@ export default function Hero() {
 
               {/* Third speech bubble (bottom) */}
               <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 animate-pulse animation-delay-2000">
-                <div className="bg-orange-300 rounded-2xl px-4 py-2 border-4 border-black relative">
+                <div className="bg-orange-300 rounded-2xl px-3 md:px-4 py-2 border-4 border-black relative">
                   <p className="text-black font-black text-sm whitespace-nowrap">
                     MUCH WOW! 🤯
                   </p>
