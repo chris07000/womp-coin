@@ -57,35 +57,35 @@ export default function Tokenomics() {
       {/* Tokenomics Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-6xl md:text-8xl font-black text-black mb-12 leading-none border-8 border-purple-600 inline-block px-8 py-4 bg-purple-600/20 rounded-3xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-black text-black mb-8 md:mb-12 leading-none border-4 md:border-8 border-purple-600 inline-block px-4 md:px-8 py-2 md:py-4 bg-purple-600/20 rounded-2xl md:rounded-3xl">
             TOKENOMICS
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Token Distribution */}
             <div className="space-y-6">
-              <h3 className="text-4xl font-black text-black mb-8">TOKEN DISTRIBUTION 📊</h3>
+              <h3 className="text-2xl md:text-4xl font-black text-black mb-6 md:mb-8">TOKEN DISTRIBUTION 📊</h3>
               
               {/* Distribution Cards */}
               <div className="space-y-4">
-                <div className="bg-blue-500 rounded-2xl p-6 border-4 border-black">
+                <div className="bg-blue-500 rounded-2xl p-4 md:p-6 border-4 border-black">
                   <div className="flex justify-between items-center text-white">
-                    <span className="text-2xl font-black">85% LP</span>
-                    <span className="text-lg font-bold">LIQUIDITY POOL</span>
+                    <span className="text-lg md:text-2xl font-black">85% LP</span>
+                    <span className="text-sm md:text-lg font-bold">LIQUIDITY POOL</span>
                   </div>
                 </div>
                 
-                <div className="bg-pink-500 rounded-2xl p-6 border-4 border-black">
+                <div className="bg-pink-500 rounded-2xl p-4 md:p-6 border-4 border-black">
                   <div className="flex justify-between items-center text-white">
-                    <span className="text-2xl font-black">10% TREASURY</span>
-                    <span className="text-lg font-bold">DEVELOPMENT FUND</span>
+                    <span className="text-lg md:text-2xl font-black">10% TREASURY</span>
+                    <span className="text-sm md:text-lg font-bold">DEVELOPMENT FUND</span>
                   </div>
                 </div>
                 
-                <div className="bg-cyan-400 rounded-2xl p-6 border-4 border-black">
+                <div className="bg-cyan-400 rounded-2xl p-4 md:p-6 border-4 border-black">
                   <div className="flex justify-between items-center text-black">
-                    <span className="text-2xl font-black">5% CEX WALLET</span>
-                    <span className="text-lg font-bold">EXCHANGE LISTINGS</span>
+                    <span className="text-lg md:text-2xl font-black">5% CEX WALLET</span>
+                    <span className="text-sm md:text-lg font-bold">EXCHANGE LISTINGS</span>
                   </div>
                 </div>
               </div>
@@ -93,30 +93,30 @@ export default function Tokenomics() {
 
             {/* Security Features */}
             <div className="space-y-6">
-              <h3 className="text-4xl font-black text-black mb-8">SECURITY FEATURES 🔒</h3>
+              <h3 className="text-2xl md:text-4xl font-black text-black mb-6 md:mb-8">SECURITY FEATURES 🔒</h3>
               
               <div className="space-y-4">
-                <div className="bg-green-400 rounded-2xl p-8 border-4 border-black">
+                <div className="bg-green-400 rounded-2xl p-6 md:p-8 border-4 border-black">
                   <div className="text-center">
-                    <div className="text-4xl mb-2">🚀</div>
-                    <h4 className="text-2xl font-black text-black mb-2">FAIR LAUNCH</h4>
-                    <p className="text-black font-bold">No presale, no insider allocation!</p>
+                    <div className="text-3xl md:text-4xl mb-2">🚀</div>
+                    <h4 className="text-lg md:text-2xl font-black text-black mb-2">FAIR LAUNCH</h4>
+                    <p className="text-black font-bold text-sm md:text-base">No presale, no insider allocation!</p>
                   </div>
                 </div>
                 
-                <div className="bg-orange-400 rounded-2xl p-8 border-4 border-black">
+                <div className="bg-orange-400 rounded-2xl p-6 md:p-8 border-4 border-black">
                   <div className="text-center">
-                    <div className="text-4xl mb-2">🔐</div>
-                    <h4 className="text-2xl font-black text-black mb-2">LP WILL BE LOCKED</h4>
-                    <p className="text-black font-bold">Liquidity will be secured for safety!</p>
+                    <div className="text-3xl md:text-4xl mb-2">🔐</div>
+                    <h4 className="text-lg md:text-2xl font-black text-black mb-2">LP WILL BE LOCKED</h4>
+                    <p className="text-black font-bold text-sm md:text-base">Liquidity will be secured for safety!</p>
                   </div>
                 </div>
                 
-                <div className="bg-purple-300 rounded-2xl p-8 border-4 border-black">
+                <div className="bg-purple-300 rounded-2xl p-6 md:p-8 border-4 border-black">
                   <div className="text-center">
-                    <div className="text-4xl mb-2">🟣</div>
-                    <h4 className="text-2xl font-black text-black mb-2">TOTAL SUPPLY</h4>
-                    <p className="text-2xl font-black text-black">1,000,000,000 WOMP</p>
+                    <div className="text-3xl md:text-4xl mb-2">🟣</div>
+                    <h4 className="text-lg md:text-2xl font-black text-black mb-2">TOTAL SUPPLY</h4>
+                    <p className="text-lg md:text-2xl font-black text-black">1,000,000,000 WOMP</p>
                   </div>
                 </div>
               </div>
@@ -124,9 +124,9 @@ export default function Tokenomics() {
           </div>
 
           {/* Additional Info */}
-          <div className="mt-12 bg-black/90 rounded-3xl p-8 border-4 border-purple-600">
-            <h3 className="text-3xl font-black text-white mb-4">WOMP ECONOMICS 💰</h3>
-            <p className="text-white font-bold text-lg leading-relaxed">
+          <div className="mt-12 bg-black/90 rounded-3xl p-6 md:p-8 border-4 border-purple-600">
+            <h3 className="text-2xl md:text-3xl font-black text-white mb-4">WOMP ECONOMICS 💰</h3>
+            <p className="text-white font-bold text-base md:text-lg leading-relaxed">
               Fair launch with maximum transparency! No presale, no team allocation, just pure community-driven blob power. 
               The majority goes straight to liquidity to ensure stable trading for all blob enthusiasts! 🚀
             </p>
@@ -137,27 +137,27 @@ export default function Tokenomics() {
       {/* Blobpaper Section */}
       <section className="py-20 px-4 bg-purple-400">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-6xl md:text-8xl font-black text-black mb-12 leading-none border-8 border-orange-400 inline-block px-8 py-4 bg-orange-400/20 rounded-3xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-black text-black mb-8 md:mb-12 leading-none border-4 md:border-8 border-orange-400 inline-block px-4 md:px-8 py-2 md:py-4 bg-orange-400/20 rounded-2xl md:rounded-3xl">
             BLOBPAPER
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="bg-white rounded-3xl p-12 border-4 border-black">
-              <h3 className="text-4xl font-black text-black mb-8">WOMP IS A STATE OF MIND 🧠</h3>
-              <p className="text-xl text-black font-bold leading-relaxed mb-6">
+            <div className="bg-white rounded-3xl p-8 md:p-12 border-4 border-black">
+              <h3 className="text-2xl md:text-4xl font-black text-black mb-6 md:mb-8">WOMP IS A STATE OF MIND 🧠</h3>
+              <p className="text-lg md:text-xl text-black font-bold leading-relaxed mb-4 md:mb-6">
                 Not just a token, not just a meme, WOMP transcends the boundaries of traditional cryptocurrency to become a philosophical movement.
               </p>
-              <p className="text-lg text-black font-bold leading-relaxed">
+              <p className="text-base md:text-lg text-black font-bold leading-relaxed">
                 When you hold WOMP, you don&apos;t just hold tokens - you hold the essence of blob consciousness itself.
               </p>
             </div>
             
-            <div className="bg-orange-300 rounded-3xl p-12 border-4 border-black">
-              <h3 className="text-4xl font-black text-black mb-8">PROOF OF BLOB (POB) 🟣</h3>
-              <p className="text-xl text-black font-bold leading-relaxed mb-6">
+            <div className="bg-orange-300 rounded-3xl p-8 md:p-12 border-4 border-black">
+              <h3 className="text-2xl md:text-4xl font-black text-black mb-6 md:mb-8">PROOF OF BLOB (POB) 🟣</h3>
+              <p className="text-lg md:text-xl text-black font-bold leading-relaxed mb-4 md:mb-6">
                 Revolutionary consensus mechanism based entirely on slime viscosity and wobble frequency.
               </p>
-              <p className="text-lg text-black font-bold leading-relaxed">
+              <p className="text-base md:text-lg text-black font-bold leading-relaxed">
                 Instead of mining or staking, validators must prove their blobness through rigorous jiggle tests.
               </p>
             </div>
