@@ -19,7 +19,7 @@ export default function Tokenomics() {
         </div>
 
         <div className="max-w-6xl mx-auto text-center relative z-10">
-          <h2 className="text-6xl md:text-8xl font-black text-black mb-12 leading-none border-8 border-purple-600 inline-block px-8 py-4 bg-white rounded-3xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-black text-black mb-8 md:mb-12 leading-none border-4 md:border-8 border-purple-600 inline-block px-4 md:px-8 py-2 md:py-4 bg-white rounded-2xl md:rounded-3xl">
             BLOBMAP
           </h2>
 
