@@ -14,11 +14,11 @@ export default function BlobpaperPage() {
             </Button>
           </Link>
           
-          <h1 className="text-6xl md:text-8xl font-black text-white mb-4 border-8 border-black inline-block px-8 py-4 bg-black/20 rounded-3xl">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white mb-4 border-4 md:border-8 border-black inline-block px-4 md:px-8 py-2 md:py-4 bg-black/20 rounded-2xl md:rounded-3xl">
             OFFICIAL BLOBPAPER
           </h1>
           
-          <p className="text-2xl font-black text-white bg-black/30 rounded-xl p-4 max-w-2xl mx-auto">
+          <p className="text-lg md:text-2xl font-black text-white bg-black/30 rounded-xl p-3 md:p-4 max-w-2xl mx-auto">
             EXTREMELY SERIOUS TECHNICAL DOCUMENTATION
           </p>
         </div>
