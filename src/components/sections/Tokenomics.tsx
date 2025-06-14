@@ -24,31 +24,31 @@ export default function Tokenomics() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-purple-400 rounded-3xl p-8 border-4 border-black relative">
-              <div className="text-6xl mb-4">1️⃣</div>
-              <h3 className="text-2xl font-black text-black mb-4">BLOB EXISTS</h3>
-              <p className="text-black font-bold">The most important milestone already achieved!</p>
+            <div className="bg-purple-400 rounded-3xl p-6 md:p-8 border-4 border-black relative">
+              <div className="text-4xl md:text-6xl mb-4">1️⃣</div>
+              <h3 className="text-xl md:text-2xl font-black text-black mb-4">BLOB EXISTS</h3>
+              <p className="text-black font-bold text-sm md:text-base">The most important milestone already achieved!</p>
               <div className="absolute top-2 right-2">
                 <span className="bg-green-400 text-black px-3 py-1 rounded-full text-xs font-black">DONE</span>
               </div>
             </div>
             
-            <div className="bg-white rounded-3xl p-8 border-4 border-black">
-              <div className="text-6xl mb-4">2️⃣</div>
-              <h3 className="text-2xl font-black text-black mb-4">BLOB LEARNS TO DANCE</h3>
-              <p className="text-black font-bold">Teaching blob the ancient art of wiggling</p>
+            <div className="bg-white rounded-3xl p-6 md:p-8 border-4 border-black">
+              <div className="text-4xl md:text-6xl mb-4">2️⃣</div>
+              <h3 className="text-xl md:text-2xl font-black text-black mb-4">BLOB LEARNS TO DANCE</h3>
+              <p className="text-black font-bold text-sm md:text-base">Teaching blob the ancient art of wiggling</p>
             </div>
             
-            <div className="bg-purple-300 rounded-3xl p-8 border-4 border-black">
-              <div className="text-6xl mb-4">3️⃣</div>
-              <h3 className="text-2xl font-black text-black mb-4">BLOB TAKES OVER TWITTER</h3>
-              <p className="text-black font-bold">World domination through memes</p>
+            <div className="bg-purple-300 rounded-3xl p-6 md:p-8 border-4 border-black">
+              <div className="text-4xl md:text-6xl mb-4">3️⃣</div>
+              <h3 className="text-xl md:text-2xl font-black text-black mb-4">BLOB TAKES OVER TWITTER</h3>
+              <p className="text-black font-bold text-sm md:text-base">World domination through memes</p>
             </div>
             
-            <div className="bg-orange-400 rounded-3xl p-8 border-4 border-black">
-              <div className="text-6xl mb-4">4️⃣</div>
-              <h3 className="text-2xl font-black text-black mb-4">CEX LISTING OR BLOB TANTRUM</h3>
-              <p className="text-black font-bold">We moon or we throw biggest tantrum</p>
+            <div className="bg-orange-400 rounded-3xl p-6 md:p-8 border-4 border-black">
+              <div className="text-4xl md:text-6xl mb-4">4️⃣</div>
+              <h3 className="text-xl md:text-2xl font-black text-black mb-4">CEX LISTING OR BLOB TANTRUM</h3>
+              <p className="text-black font-bold text-sm md:text-base">We moon or we throw biggest tantrum</p>
             </div>
           </div>
         </div>
